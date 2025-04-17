@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import ScriptOhioImage from "../../public/script-ohio.jpeg";
+import TBDBITLGif from "../../public/ohio-state-tbdbitl-gif.gif";
 
 const MarchingBandInfo: React.FC = () => {
   const [showHistory, setShowHistory] = useState(false);
@@ -163,7 +165,7 @@ const MarchingBandInfo: React.FC = () => {
                   </li>
                 </ul>
                 <img
-                  src="/script-ohio.jpeg"
+                  src={ScriptOhioImage}
                   alt="Script Ohio formation"
                   style={{
                     width: "250px",
@@ -229,7 +231,7 @@ const MarchingBandInfo: React.FC = () => {
                 </p>
               </div>
               <img
-                src="/ohio-state-tbdbitl-gif.gif"
+                src={TBDBITLGif}
                 alt="TBDBITL GIF"
                 style={{
                   width: "250px",
