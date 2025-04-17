@@ -4,7 +4,7 @@ import BandGame from "./components/BandGame";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/website">
       <Routes>
         <Route path="/" element={<MarchingBandInfo />} />
         <Route path="/game" element={<BandGame />} />
